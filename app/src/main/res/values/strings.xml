@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Flower Lite Launcher</string>
     <string name="app_icon">App icon</string>
+    <string name="app_folder_favorites">Favorites</string>
+    <string name="app_folder_productivity">Work</string>
+    <string name="widget_weather">28° Sunny</string>
+    <string name="widget_focus">2h 15m</string>
 </resources>

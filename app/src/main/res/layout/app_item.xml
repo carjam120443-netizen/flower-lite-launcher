@@ -4,14 +4,17 @@
     android:layout_height="wrap_content"
     android:gravity="center"
     android:orientation="vertical"
-    android:padding="12dp"
-    android:background="#121212">
+    android:padding="10dp"
+    android:layout_margin="4dp"
+    android:background="@drawable/app_tile_background"
+    android:clipToOutline="true">
 
     <ImageView
         android:id="@+id/appIcon"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:contentDescription="@string/app_icon" />
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:contentDescription="@string/app_icon"
+        android:padding="8dp" />
 
     <TextView
         android:id="@+id/appLabel"
@@ -21,7 +24,8 @@
         android:gravity="center"
         android:maxLines="2"
         android:ellipsize="end"
-        android:textColor="#FFFFFF"
-        android:textSize="12sp" />
+        android:textColor="#F7F7FF"
+        android:textSize="12sp"
+        android:fontFamily="sans-serif-medium" />
 
 </LinearLayout>
