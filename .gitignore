@@ -1,0 +1,15 @@
+# Android / Gradle
+.gradle/
+**/build/
+local.properties
+*.iml
+.idea/
+.gradle-cache/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Generated
+/app/release/
+/app/debug/
